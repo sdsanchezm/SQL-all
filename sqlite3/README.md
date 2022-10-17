@@ -17,3 +17,13 @@
 - Create table employee (id integer primary key autoincrement, name varchar(20), number int(5), email varchar(30))
 - insert into users4 (username) values('qweasdqew');
 
+### Useful commands
+
+- Create a *.sql file
+- Execute into the sqlite3 env using `.read a.sql;`
+- Verify with `.schema`
+- Check databases with `.databases`
+
+### Documentation 
+
+- (https://github.com/sdsanchezm/SQL-all)[https://github.com/sdsanchezm/SQL-all]
