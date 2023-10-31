@@ -68,5 +68,15 @@ JOIN table2
   ON table1.id = table2.table1_id;
  ```
 
+
+## MariaDB in F36
+
+- install
+  - `dnf install mariadb-server mariadb`
+  - `sudo systemctl start mariadb`
+  - `sudo mysql_secure_installation`
+
+
+
 ### References and nice sources:
 [^1]: [Nice Reference](https://learnsql.com/blog/how-to-join-3-tables-or-more-in-sql)
