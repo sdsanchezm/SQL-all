@@ -77,6 +77,11 @@ JOIN table2
   - `sudo mysql_secure_installation`
 
 
+## T-SQL documentation from Microsoft
+
+- [https://learn.microsoft.com/en-us/sql/t-sql/queries/queries?view=sql-server-ver16]
+
+
 
 ### References and nice sources:
 [^1]: [Nice Reference](https://learnsql.com/blog/how-to-join-3-tables-or-more-in-sql)
