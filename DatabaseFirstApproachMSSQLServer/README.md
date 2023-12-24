@@ -16,7 +16,7 @@
 
 ## Linq exp for 2 tables with shared id
 
-```nermaid
+```mermaid
 erDiagram
     POSITION o|--o| DEPARTMENT : _
     
