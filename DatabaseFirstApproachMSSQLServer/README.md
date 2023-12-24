@@ -18,7 +18,8 @@
 
 ```nermaid
 erDiagram
-    Position o|--o| Department
+    POSITION o|--o| DEPARTMENT : _
+    
 ```
 
 ```cs
