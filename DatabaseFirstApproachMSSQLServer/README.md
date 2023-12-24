@@ -14,6 +14,27 @@
     Working locally:
     - `Scaffold-DbContext "Server=YOURPC\SQLEXPRESS; Database=DBNAMEX; TrustServerCertificate=True; user id=admin;password=passw0rd" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DB`
 
+## Linq exp for 2 tables with shared id
+
+```nermaid
+erDiagram
+    Position o|--o| Department
+```
+
+```cs
+    var listPositionDepartment = (
+        from position in db.Positions
+        join department in db.Departments on position.DepartmentId equals department.Id
+        select new PositionDepartmentDto
+        {
+            PositionID = position.Id,
+            PositionName = position.PositionName,
+            DepartmentId = position.DepartmentId,
+            DepartmentName = department.DepartmentName
+        }
+    ).ToList();
+```
+
 ## MISC
 
 - `TrustServerCertificate=True` Data
