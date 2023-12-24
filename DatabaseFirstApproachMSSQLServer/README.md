@@ -18,8 +18,7 @@
 
 ```mermaid
 erDiagram
-    POSITION o|--o| DEPARTMENT : _
-    
+    POSITION o|--o| DEPARTMENT : x
 ```
 
 ```cs
