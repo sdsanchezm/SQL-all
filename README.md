@@ -221,7 +221,9 @@ Database Practice and tracking learning process and applications
 
 ### MySQL and Maria DB Triggers
 
-    ```SQL
+- Example
+
+    ```sql
     USE sales_virginia;
 
     CREATE TRIGGER update_sales_at_field
@@ -357,29 +359,29 @@ Database Practice and tracking learning process and applications
 
 19. `Create Database (CREATE DATABASE)` used to create a new database
 
-   ```sql
-   CREATE DATABASE my_database;
-   ```
+    ```sql
+    CREATE DATABASE my_database;
+    ```
 
 20. `Drop Database (DROP DATABASE)` used to delete an existing database
 
-   ```sql
-   DROP DATABASE my_database;
-   ```
+    ```sql
+    DROP DATABASE my_database;
+    ```
 
 21. `Backup Database` multiple methods for database backup - `mysqldump` is one - or like MySQL Workbench
 
 22. `Create Table (CREATE TABLE)` used to create a new table within a database
 
-   ```sql
-   CREATE TABLE users (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       username VARCHAR(50) NOT NULL,
-       email VARCHAR(100) UNIQUE,
-       age INT,
-       city VARCHAR(50)
-   );
-   ```
+    ```sql
+    CREATE TABLE users (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        username VARCHAR(50) NOT NULL,
+        email VARCHAR(100) UNIQUE,
+        age INT,
+        city VARCHAR(50)
+    );
+    ```
 
 23. `Drop Table (DROP TABLE)` delete an existing table from the database
 
@@ -397,23 +399,23 @@ Database Practice and tracking learning process and applications
 
 26. `NOT NULL` indicates that a column cannot contain NULL values
 
-   ```sql
-   CREATE TABLE products (
-       id INT PRIMARY KEY,
-       name VARCHAR(100) NOT NULL,
-       price DECIMAL(10, 2) NOT NULL
-   );
-   ```
+    ```sql
+    CREATE TABLE products (
+        id INT PRIMARY KEY,
+        name VARCHAR(100) NOT NULL,
+        price DECIMAL(10, 2) NOT NULL
+    );
+    ```
 
 27. `UNIQUE` values in a column are unique
 
-   ```sql
-   CREATE TABLE employees (
-       id INT PRIMARY KEY,
-       email VARCHAR(100) UNIQUE,
-       name VARCHAR(100)
-   );
-   ```
+    ```sql
+    CREATE TABLE employees (
+        id INT PRIMARY KEY,
+        email VARCHAR(100) UNIQUE,
+        name VARCHAR(100)
+    );
+    ```
 
 28. `Primary Key` identifies each record in a table - each table can have only one primary key
 
